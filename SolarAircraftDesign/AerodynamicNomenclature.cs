@@ -826,6 +826,342 @@ namespace SolarAircraftDesign
         }
     }
 
+    public class EfficiencyFactor
+    {
+        private double Value = 1;
+        private string Symbol = @"e";
+
+        public void Set(double EfficiencyFactor)
+        {
+            Value = EfficiencyFactor;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class NormalForceCoefficient
+    {
+        private double Value = 1;
+        private string Symbol = @"C_{N}";
+
+        public void Set(double NormalForceCoefficient)
+        {
+            Value = NormalForceCoefficient;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class WingLengthDelta
+    {
+        private double Value = 1;
+        private string Symbol = @"l";
+
+        public void Set(double WingLengthDelta)
+        {
+            Value = WingLengthDelta;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class FrictionCoefficientOnWetSurface
+    {
+        private double Value = 1;
+        private string Symbol = @"C_{f}";
+
+        public void Set(double FrictionCoefficientOnWetSurface)
+        {
+            Value = FrictionCoefficientOnWetSurface;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class SeperationOfFlowPressureDragCoefficient
+    {
+        private double Value = 1;
+        private string Symbol = @"C_{d.p}";
+
+        public void Set(double SeperationOfFlowPressureDragCoefficient)
+        {
+            Value = SeperationOfFlowPressureDragCoefficient;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class InducedDragCoefficient
+    {
+        private double Value = 1;
+        private string Symbol = @"C_{D_{i}}";
+
+        public void Set(double InducedDragCoefficient)
+        {
+            Value = InducedDragCoefficient;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class InducedDragFactor
+    {
+        private double Value = 1;
+        private string Symbol = @"\delta";
+
+        public void Set(double InducedDragFactor)
+        {
+            Value = InducedDragFactor;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class Weight
+    {
+        private double Value = 1;
+        private string Symbol = @"W";
+
+        public void Set(double Weight)
+        {
+            Value = Weight;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class ParasiteDragAtZeroLift
+    {
+        private double Value = 1;
+        private string Symbol = @"C_{D_{0}}";
+
+        public void Set(double ParasiteDragAtZeroLift)
+        {
+            Value = ParasiteDragAtZeroLift;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class ParasiteDrag
+    {
+        private double Value = 1;
+        private string Symbol = @"C_{D_{e}}";
+
+        public void Set(double ParasiteDrag)
+        {
+            Value = ParasiteDrag;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class DragDueToShock
+    {
+        private double Value = 1;
+        private string Symbol = @"C_{D_{w}}";
+
+        public void Set(double DragDueToShock)
+        {
+            Value = DragDueToShock;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class ConstantOfProportionalityForPortionsOfDrag
+    {
+        private double Value = 1;
+        private string Symbol = @"K";
+
+        public void Set(double ConstantOfProportionalityForPortionsOfDrag)
+        {
+            Value = ConstantOfProportionalityForPortionsOfDrag;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class Velocity
+    {
+        private double Value = 1;
+        private string Symbol = @"V";
+
+        public void Set(double Velocity)
+        {
+            Value = Velocity;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class Thrust
+    {
+        private double Value = 1;
+        private string Symbol = @"T";
+
+        public void Set(double Thrust)
+        {
+            Value = Thrust;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class Mass
+    {
+        private double Value = 1;
+        private string Symbol = @"m";
+
+        public void Set(double Mass)
+        {
+            Value = Mass;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
+    public class AccelerationDueToGravity
+    {
+        private double Value = 1;
+        private string Symbol = @"g";
+
+        public void Set(double AccelerationDueToGravity)
+        {
+            Value = AccelerationDueToGravity;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
     public class ReynoldsNumber
     {
         private double Value = 1;
