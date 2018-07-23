@@ -384,6 +384,27 @@ namespace SolarAircraftDesign
         }
     }
 
+    public class Density
+    {
+        private double Value = 1;
+        private string Symbol = @"\rho";
+
+        public void Set(double Density)
+        {
+            Value = Density;
+        }
+
+        public string Latex()
+        {
+            return Symbol;
+        }
+
+        public double Get()
+        {
+            return Value;
+        }
+    }
+
     public class RelativeDensity
     {
         private double Value = 1;
